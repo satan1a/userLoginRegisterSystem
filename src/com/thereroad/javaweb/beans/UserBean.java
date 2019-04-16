@@ -75,4 +75,8 @@ public class UserBean {
 		
 		return flag;
 	}
+
+	public boolean isReset(String question, String answer) {
+		return false;
+	}
 }
