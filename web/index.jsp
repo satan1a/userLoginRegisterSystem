@@ -62,7 +62,7 @@
   <div id="register" class="col s12">
     <!--ÒÔÏÂÎª×¢²á-->
     <%--TODO--%>
-    <form action="checkRegister.jsp" method="post" class="col s12">
+    <form action="checkReset.jsp" method="post" class="col s12">
       <div class="form-container">
         <h3 class="teal-text">Welcome</h3>
         <div class="row">
