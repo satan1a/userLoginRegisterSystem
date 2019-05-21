@@ -12,8 +12,8 @@ public class UserBean {
 		boolean flag = false;
 		DatabaseBean db = new DatabaseBean();
 		if(db.creatConn()){
-			// 匹配的查询配对SQL语句
-			String sql = "select * from user where username ='"+username+"' and password = '"+password+"' ";
+            // 匹配的查询配对SQL语句
+			String sql = "select * from user_advance where username ='"+username+"' and password = '"+password+"' ";
 			// 调用DatabaseBean对象中的SQL语句查询方法
 			db.query(sql);
 			// 调用DatabaseBean对象中的结果集操作语句
@@ -41,7 +41,7 @@ public class UserBean {
 		DatabaseBean db = new DatabaseBean();
 		if(db.creatConn()){
 			// SQL语句
-			String sql = "select * from user where username = '"+username+"'";
+			String sql = "select * from user_advance where username = '"+username+"'";
 			db.query(sql);
 			if(db.next()){
 				flag = true;

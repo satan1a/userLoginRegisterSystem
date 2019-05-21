@@ -11,7 +11,7 @@ import java.sql.Statement;
 
 public class DatabaseBean {
     // 数据库驱动
-    String driver = "com.mysql.jdbc.Driver";
+    String driver = "com.mysql.cj.jdbc.Driver";
     // 数据库名字
     String dbName = "userRegisterSign";
     // 数据库用户名

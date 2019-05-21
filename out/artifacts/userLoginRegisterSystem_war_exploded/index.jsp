@@ -32,7 +32,7 @@
   <!--以下post传值到checkSign.jsp再使用JavaBean传值-->
   <!--TODO-->
   <div id="login" class="col s12">
-    <!--action方法，点击按钮，post方法将数据抛入JavaBean-->
+    <!--action方法，点击按钮，post方法将数据抛入Servlet，即LoginCheckServlet-->
     <form action="checkSign.jsp" method="post" class="col s12">
       <div class="form-container">
         <h3 class="teal-text">Hello, 靓仔</h3>
@@ -62,7 +62,8 @@
   <div id="register" class="col s12">
     <!--以下为注册-->
     <%--TODO--%>
-    <form action="checkReset.jsp" method="post" class="col s12">
+    <!--action方法，点击按钮，post方法将数据抛入Servlet，即RegisterCheckServlet-->
+    <form action="registerCheck" method="post" class="col s12">
       <div class="form-container">
         <h3 class="teal-text">Welcome</h3>
         <div class="row">
