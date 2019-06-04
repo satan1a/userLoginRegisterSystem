@@ -31,9 +31,9 @@
     </ul>
 
     <div id="resetPassword" class="col s12">
-        <!--以下为重置密码-->
+        <!--以下为重置密码，改为在Servlet中实现-->
         <%--TODO--%>
-        <form action="checkReset.jsp" method="post" class="col s12">
+        <form action="resetCheckServlet" method="post" class="col s12">
             <div class="form-container">
                 <h3 class="teal-text">Reset Password</h3>
 

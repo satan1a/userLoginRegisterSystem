@@ -19,4 +19,13 @@
         <servlet-name>RegisterCheckServlet</servlet-name>
         <url-pattern>/registerCheck</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ResetCheckServlet</servlet-name>
+        <servlet-class>com.thereroad.javaweb.servlet.ResetCheckServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ResetCheckServlet</servlet-name>
+        <url-pattern>/resetCheckServlet</url-pattern>
+    </servlet-mapping>
 </web-app>

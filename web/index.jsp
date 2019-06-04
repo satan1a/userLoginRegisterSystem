@@ -33,7 +33,7 @@
   <!--TODO-->
   <div id="login" class="col s12">
     <!--action方法，点击按钮，post方法将数据抛入Servlet，即LoginCheckServlet-->
-    <form action="checkSign.jsp" method="post" class="col s12">
+    <form action="loginCheck" method="post" class="col s12">
       <div class="form-container">
         <h3 class="teal-text">Hello, 靓仔</h3>
         <div class="row">
